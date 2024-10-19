@@ -93,7 +93,7 @@ public class TestClassUsingTestNG {
           driver.switchTo().window(browserAddress.get(1));
       
        String expectedProductName=productDetailPage.getProductName();
-   	   int expectedProductPrice=productDetailPage.getProductPrice();
+   	String expectedProductPrice=productDetailPage.getProductPrice();
    	   productDetailPage.clickOnAddToCard();
    	   
       recommendedAccessoriesModule.goToCartPage();
