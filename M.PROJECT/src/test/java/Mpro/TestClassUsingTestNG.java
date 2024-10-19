@@ -99,6 +99,10 @@ public class TestClassUsingTestNG {
       recommendedAccessoriesModule.goToCartPage();
       
       //Cart page
+      
+      
+      
+      
   
 		cartDetailsPage=new CartDetailsPage(driver);
 		String actualProductName=cartDetailsPage.getFirstProductName();
